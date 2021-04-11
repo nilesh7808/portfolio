@@ -1,0 +1,182 @@
+nav {
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.fas {
+    color: #4cc9f0;
+}
+
+section {
+    height: auto;
+    width: 100vw;
+    display: flex;
+}
+
+section div {
+    height: 592px;
+    width: 680px;
+    background-color: #000000;
+    /* border: 1px solid red; */
+}
+
+div img {
+    width: 60%;
+    height: 55%;
+    margin-top: 80px;
+    background: linear-gradient(162deg, rgba(255, 255, 0, 0.274) 52%, rgba(0, 0, 0, 0.14049369747899154) 93%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.container h3 {
+    color: #faa307;
+}
+
+.container h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    color: #faa307;
+    /* margin-top: 20%; */
+    margin-left: 15px;
+}
+
+.lead {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Caveat', cursive;
+}
+
+.container button {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+#about a::before {
+    color: #faa307;
+    content: "\27A4";
+    font-size: 1.8rem;
+}
+
+#about a {
+    color: #faa307;
+    font-size: 2.5rem;
+}
+
+
+/*  */
+
+#skills {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills a::before {
+    color: #faa307;
+    content: "\27A4";
+    font-size: 1.8rem;
+}
+
+#skills a {
+    color: #faa307;
+    font-size: 2.5rem;
+}
+
+
+/*  */
+
+.card {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#projects {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+#projects a::before {
+    color: #faa307;
+    content: "\27A4";
+    font-size: 1.8rem;
+}
+
+#projects a {
+    color: #faa307;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#contacts {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 100px;
+}
+
+#contacts h1 {
+    color: #faa307;
+}
+
+#contacts div a {
+    color: #faa307;
+    font-size: 2.5rem;
+}
+
+#contacts a::before {
+    color: #faa307;
+    content: "\27A4";
+    font-size: 1.8rem;
+    margin-left: 5px;
+}
+
+#contacts span a {
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div {
+    height: 50px;
+    width: 100vw;
+    bottom: 0;
+}
+
+footer div h4 {
+    text-align: center;
+    color: white;
+}
